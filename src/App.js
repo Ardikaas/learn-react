@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from './component/button';
 import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           test 123 
         </p>
         <Button/>
+        <Footer/>
       </header>
     </div>
   );
